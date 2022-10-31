@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3.5rem;
+}
+h3{
+    color: rgb(78, 11, 235);
+    text-align: center;
+    font-size: 2rem;
+}
+.game{
+    width: 700px;
+    height: 500px;
+    background-color: bisque;
+    margin: auto;
+}
+.fa-circle-check{
+    width: 20px;
+    height: 30px;
+    color: green;
+}
+#correct{
+    display: none;
+
+}
+#wrong{
+    width: 20px;
+    height: 30px;
+    color: red;
+    display: none;
+}
+.title,.workarea,.work_letter{
+    text-align: center;
+    margin: auto;
+}
+#console{
+    width: 350px;
+    height: 50px;
+    font-size: 1.5rem;
+}
+.work_letter{
+    padding-top: 50px;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    gap: 25px;
+}
+.letters{
+    display: inline-visible;
+    width: 75px;
+    height: 75px;
+    border: 2px solid rgba(0, 0, 0, 0.24);
+    border-radius: 50% ;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+}
+.icon{
+    display: inline-block;
+    padding: 1rem;
+}
+.submit{
+    padding-top: 40px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+}
+#res_title{
+    visibility: hidden;
+}

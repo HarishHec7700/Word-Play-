@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Play Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../fonts/icofont.css">
+    <script src="https://kit.fontawesome.com/b63a0cb7ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Word Play Game </h1>
+    <br>
+    <div class="game">
+        <div class="title">
+            <h3>Form the words with the given letters</h3>
+            <br>
+        </div>
+        <div class="workarea">        
+            <div class="work_space">
+            <input type="text" class="consolee" id="console">
+            <span class="icon">
+                <i class="fa-solid fa-circle-check" id="correct"></i>
+                <i class="fa-solid fa-circle-xmark" id="wrong"></i>
+            </span>
+            <br>
+        </div>
+        <div class="work_letter">
+            <button class="letters" id="S">S</button>
+            <button class="letters" id="A">A</button>
+            <button class="letters" id="E">E</button>
+            <button class="letters" id="I">I</button>
+            <button class="letters" id="T">T</button>
+        </div>    
+        <div class="submit">
+            <button id="eval" class="btn">SUBMIT</button>
+            <button id="clear" class="btn">Clear</button>
+        </div>
+        <div class="result_box">
+            <h4 id="res_title">You Have entered </h4>
+            <div id="result"></div>
+        </div>
+    </div>
+    <!-- <script src="word_script.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
